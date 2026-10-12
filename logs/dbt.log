@@ -1,0 +1,182 @@
+[0m12:00:07.798257 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x77c4638e5400>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x77c465d75090>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x77c462397b10>]}
+
+
+============================== 12:00:07.801641 | f3b3ed13-e38a-4c64-a574-c77dbe5b851e ==============================
+[0m12:00:07.801641 [info ] [MainThread]: Running with dbt=1.12.5
+[0m12:00:07.802033 [debug] [MainThread]: running dbt with arguments {'no_print': 'None', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'log_path': 'logs', 'cache_selected_only': 'False', 'printer_width': '80', 'version_check': 'True', 'invocation_command': 'dbt init --skip-profile-setup airbnb', 'hints_enabled': 'True', 'use_colors': 'True', 'introspect': 'True', 'write_json': 'True', 'debug': 'False', 'static_parser': 'True', 'maximum_seed_size_mib': '1', 'use_experimental_parser': 'False', 'profiles_dir': '/home/michaeldean17/.dbt', 'target_path': 'None', 'fail_fast': 'False', 'partial_parse': 'True', 'log_format': 'default', 'empty': 'None', 'indirect_selection': 'eager', 'warn_error': 'None', 'quiet': 'False', 'log_cache_events': 'False', 'send_anonymous_usage_stats': 'True'}
+[0m12:00:07.847978 [info ] [MainThread]: Creating dbt configuration folder at /home/michaeldean17/.dbt
+[0m12:00:07.851655 [debug] [MainThread]: Starter project path: /home/michaeldean17/training/dbt-student-repo/.venv/lib/python3.13/site-packages/dbt/include/starter_project
+[0m12:00:07.858806 [info ] [MainThread]: Your new dbt project "airbnb" was created!
+Initialized new project in /home/michaeldean17/training/dbt-student-repo/airbnb/airbnb
+
+For more information on how to configure the profiles.yml file,
+please consult the dbt documentation here:
+
+  https://docs.getdbt.com/docs/configure-your-profile
+
+One more thing:
+
+Need help? Don't hesitate to reach out to us via GitHub issues or on Slack:
+
+  https://community.getdbt.com/
+
+Happy modeling!
+
+[0m12:00:07.859411 [debug] [MainThread]: Resource report: {"command_name": "init", "command_success": true, "command_wall_clock_time": 0.12622136, "process_in_blocks": "0", "process_kernel_time": 0.136083, "process_mem_max_rss": "111504", "process_out_blocks": "0", "process_user_time": 0.976599}
+[0m12:00:07.859769 [debug] [MainThread]: Command `dbt init` succeeded at 12:00:07.859696 after 0.13 seconds
+[0m12:00:07.859996 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x77c462351e00>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x77c46244ca70>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x77c4622ed040>]}
+[0m12:00:07.860258 [debug] [MainThread]: Flushing usage events
+[0m12:00:08.162339 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m14:53:57.933948 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x76dd74ef1400>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x76dd77361090>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x76dd739a3b10>]}
+
+
+============================== 14:53:57.937647 | f9524624-afae-4b3b-8894-fd020dc1ea97 ==============================
+[0m14:53:57.937647 [info ] [MainThread]: Running with dbt=1.12.5
+[0m14:53:57.938151 [debug] [MainThread]: running dbt with arguments {'use_experimental_parser': 'False', 'use_colors': 'True', 'log_path': 'logs', 'quiet': 'False', 'invocation_command': 'dbt init --skip-profile-setup', 'log_format': 'default', 'printer_width': '80', 'no_print': 'None', 'debug': 'False', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'static_parser': 'True', 'fail_fast': 'False', 'warn_error': 'None', 'write_json': 'True', 'log_cache_events': 'False', 'send_anonymous_usage_stats': 'True', 'version_check': 'True', 'cache_selected_only': 'False', 'indirect_selection': 'eager', 'introspect': 'True', 'profiles_dir': '/home/michaeldean17/.dbt', 'target_path': 'None', 'maximum_seed_size_mib': '1', 'empty': 'None', 'hints_enabled': 'True', 'partial_parse': 'True'}
+[0m14:54:10.848916 [info ] [MainThread]: A project called airbnb already exists here.
+[0m14:54:10.849519 [debug] [MainThread]: Resource report: {"command_name": "init", "command_success": true, "command_wall_clock_time": 12.98336, "process_in_blocks": "0", "process_kernel_time": 0.107858, "process_mem_max_rss": "109144", "process_out_blocks": "0", "process_user_time": 1.006679}
+[0m14:54:10.849854 [debug] [MainThread]: Command `dbt init` succeeded at 14:54:10.849768 after 12.98 seconds
+[0m14:54:10.850096 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x76dd738d4e90>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x76dd73a5ca70>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x76dd738c47c0>]}
+[0m14:54:10.850379 [debug] [MainThread]: Flushing usage events
+[0m14:54:11.155097 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m15:20:57.359936 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7e504dbe9400>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7e504fda9090>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7e504c69bb10>]}
+
+
+============================== 15:20:57.362020 | 6f3ad637-7569-4798-bedc-02cfd4c8b9d1 ==============================
+[0m15:20:57.362020 [info ] [MainThread]: Running with dbt=1.12.5
+[0m15:20:57.362387 [debug] [MainThread]: running dbt with arguments {'invocation_command': 'dbt init', 'debug': 'False', 'fail_fast': 'False', 'hints_enabled': 'True', 'static_parser': 'True', 'indirect_selection': 'eager', 'warn_error': 'None', 'target_path': 'None', 'use_colors': 'True', 'log_format': 'default', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'cache_selected_only': 'False', 'quiet': 'False', 'log_cache_events': 'False', 'partial_parse': 'True', 'profiles_dir': '/home/michaeldean17/.dbt', 'log_path': 'logs', 'send_anonymous_usage_stats': 'True', 'no_print': 'None', 'maximum_seed_size_mib': '1', 'write_json': 'True', 'use_experimental_parser': 'False', 'empty': 'None', 'introspect': 'True', 'printer_width': '80', 'version_check': 'True'}
+[0m15:21:00.986740 [debug] [MainThread]: Starter project path: /home/michaeldean17/training/dbt-student-repo/.venv/lib/python3.13/site-packages/dbt/include/starter_project
+[0m15:21:00.990600 [info ] [MainThread]: Setting up your profile.
+[0m15:22:41.173797 [error] [MainThread]: [[31mERROR[0m]: Encountered an error:
+
+[0m15:22:41.178705 [error] [MainThread]: Traceback (most recent call last):
+  File "/home/michaeldean17/training/dbt-student-repo/.venv/lib/python3.13/site-packages/dbt/cli/requires.py", line 198, in wrapper
+    result, success = func(*args, **kwargs)
+                      ~~~~^^^^^^^^^^^^^^^^^
+  File "/home/michaeldean17/training/dbt-student-repo/.venv/lib/python3.13/site-packages/dbt/cli/requires.py", line 144, in wrapper
+    return func(*args, **kwargs)
+  File "/home/michaeldean17/training/dbt-student-repo/.venv/lib/python3.13/site-packages/dbt/cli/main.py", line 504, in init
+    results = task.run()
+  File "/home/michaeldean17/training/dbt-student-repo/.venv/lib/python3.13/site-packages/dbt/task/init.py", line 363, in run
+    self.setup_profile(profile_name)
+    ~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^
+  File "/home/michaeldean17/training/dbt-student-repo/.venv/lib/python3.13/site-packages/dbt/task/init.py", line 264, in setup_profile
+    adapter = self.ask_for_adapter_choice()
+  File "/home/michaeldean17/training/dbt-student-repo/.venv/lib/python3.13/site-packages/dbt/task/init.py", line 245, in ask_for_adapter_choice
+    numeric_choice = click.prompt(prompt_msg, type=click.INT)
+  File "/home/michaeldean17/training/dbt-student-repo/.venv/lib/python3.13/site-packages/click/termui.py", line 262, in prompt
+    value = prompt_func(prompt)
+  File "/home/michaeldean17/training/dbt-student-repo/.venv/lib/python3.13/site-packages/click/termui.py", line 245, in prompt_func
+    raise Abort() from None
+click.exceptions.Abort
+
+[0m15:22:41.179543 [debug] [MainThread]: Resource report: {"command_name": "init", "command_success": false, "command_wall_clock_time": 103.87676, "process_in_blocks": "0", "process_kernel_time": 0.056196, "process_mem_max_rss": "109380", "process_out_blocks": "0", "process_user_time": 0.902914}
+[0m15:22:41.179942 [debug] [MainThread]: Command `dbt init` failed at 15:22:41.179863 after 103.88 seconds
+[0m15:22:41.180278 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7e504c5ccb00>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7e504c5b1490>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7e504c5def10>]}
+[0m15:22:41.180628 [debug] [MainThread]: Flushing usage events
+[0m15:22:41.468956 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m15:32:49.676336 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x786ae3fcde80>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x786ae29efed0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x786ae29efb10>]}
+
+
+============================== 15:32:49.678698 | cf77dbe7-1bd6-438b-a396-7dba850fa584 ==============================
+[0m15:32:49.678698 [info ] [MainThread]: Running with dbt=1.12.5
+[0m15:32:49.679090 [debug] [MainThread]: running dbt with arguments {'use_colors': 'True', 'no_print': 'None', 'invocation_command': 'dbt init', 'send_anonymous_usage_stats': 'True', 'maximum_seed_size_mib': '1', 'cache_selected_only': 'False', 'target_path': 'None', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'static_parser': 'True', 'log_format': 'default', 'warn_error': 'None', 'quiet': 'False', 'indirect_selection': 'eager', 'introspect': 'True', 'version_check': 'True', 'empty': 'None', 'use_experimental_parser': 'False', 'write_json': 'True', 'printer_width': '80', 'fail_fast': 'False', 'log_cache_events': 'False', 'partial_parse': 'True', 'debug': 'False', 'hints_enabled': 'True', 'log_path': 'logs', 'profiles_dir': '/home/michaeldean17/.dbt'}
+[0m15:32:52.971985 [info ] [MainThread]: A project called airbnb already exists here.
+[0m15:32:52.972826 [debug] [MainThread]: Resource report: {"command_name": "init", "command_success": true, "command_wall_clock_time": 3.3514326, "process_in_blocks": "0", "process_kernel_time": 0.044061, "process_mem_max_rss": "111828", "process_out_blocks": "0", "process_user_time": 0.798038}
+[0m15:32:52.973279 [debug] [MainThread]: Command `dbt init` succeeded at 15:32:52.973190 after 3.35 seconds
+[0m15:32:52.973594 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x786ae2a59cd0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x786ae2c6ed50>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x786ae2a51150>]}
+[0m15:32:52.973858 [debug] [MainThread]: Flushing usage events
+[0m15:32:53.242545 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m15:33:05.593011 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x736a934cde80>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x736a91eebed0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x736a91eebb10>]}
+
+
+============================== 15:33:05.594915 | 47761d6b-fb4c-4d36-a8b7-da893a82aea8 ==============================
+[0m15:33:05.594915 [info ] [MainThread]: Running with dbt=1.12.5
+[0m15:33:05.595275 [debug] [MainThread]: running dbt with arguments {'warn_error': 'None', 'indirect_selection': 'eager', 'no_print': 'None', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'target_path': 'None', 'send_anonymous_usage_stats': 'True', 'log_path': 'logs', 'cache_selected_only': 'False', 'static_parser': 'True', 'invocation_command': 'dbt init', 'partial_parse': 'True', 'hints_enabled': 'True', 'use_experimental_parser': 'False', 'debug': 'False', 'version_check': 'True', 'log_format': 'default', 'maximum_seed_size_mib': '1', 'profiles_dir': '/home/michaeldean17/.dbt', 'introspect': 'True', 'printer_width': '80', 'write_json': 'True', 'log_cache_events': 'False', 'empty': 'None', 'quiet': 'False', 'use_colors': 'True', 'fail_fast': 'False'}
+[0m15:33:07.733253 [debug] [MainThread]: Starter project path: /home/michaeldean17/training/dbt-student-repo/.venv/lib/python3.13/site-packages/dbt/include/starter_project
+[0m15:33:07.735200 [info ] [MainThread]: Setting up your profile.
+[0m15:44:55.509154 [info ] [MainThread]: Profile airbnb written to /home/michaeldean17/.dbt/profiles.yml using target's profile_template.yml and your supplied values.
+[0m15:44:55.515149 [info ] [MainThread]: Running dbt debug to validate the project...
+[0m15:44:55.515759 [info ] [MainThread]: dbt version: 1.12.5
+[0m15:44:55.516010 [info ] [MainThread]: python version: 3.13.14
+[0m15:44:55.516222 [info ] [MainThread]: python path: /home/michaeldean17/training/dbt-student-repo/.venv/bin/python3
+[0m15:44:55.516438 [info ] [MainThread]: os info: Linux-6.18.40.1-microsoft-standard-WSL2-x86_64-with-glibc2.35
+[0m15:44:55.562728 [info ] [MainThread]: Using profiles dir at /home/michaeldean17/.dbt
+[0m15:44:55.563036 [info ] [MainThread]: Using profiles.yml file at /home/michaeldean17/.dbt/profiles.yml
+[0m15:44:55.563216 [info ] [MainThread]: Using dbt_project.yml file at /home/michaeldean17/training/dbt-student-repo/airbnb/dbt_project.yml
+[0m15:44:55.563381 [info ] [MainThread]: adapter type: bigquery
+[0m15:44:55.563543 [info ] [MainThread]: adapter version: 1.12.1
+[0m15:44:55.639253 [info ] [MainThread]: Configuration:
+[0m15:44:55.639573 [info ] [MainThread]:   profiles.yml file [[32mOK found and valid[0m]
+[0m15:44:55.639757 [info ] [MainThread]:   dbt_project.yml file [[32mOK found and valid[0m]
+[0m15:44:55.639940 [info ] [MainThread]: Required dependencies:
+[0m15:44:55.640167 [debug] [MainThread]: Executing "git --help"
+[0m15:44:55.645150 [debug] [MainThread]: STDOUT: "b"usage: git [-v | --version] [-h | --help] [-C <path>] [-c <name>=<value>]\n           [--exec-path[=<path>]] [--html-path] [--man-path] [--info-path]\n           [-p | --paginate | -P | --no-pager] [--no-replace-objects] [--no-lazy-fetch]\n           [--no-optional-locks] [--no-advice] [--bare] [--git-dir=<path>]\n           [--work-tree=<path>] [--namespace=<name>] [--config-env=<name>=<envvar>]\n           <command> [<args>]\n\nThese are common Git commands used in various situations:\n\nstart a working area (see also: git help tutorial)\n   clone      Clone a repository into a new directory\n   init       Create an empty Git repository or reinitialize an existing one\n\nwork on the current change (see also: git help everyday)\n   add        Add file contents to the index\n   mv         Move or rename a file, a directory, or a symlink\n   restore    Restore working tree files\n   rm         Remove files from the working tree and from the index\n\nexamine the history and state (see also: git help revisions)\n   bisect     Use binary search to find the commit that introduced a bug\n   diff       Show changes between commits, commit and working tree, etc\n   grep       Print lines matching a pattern\n   log        Show commit logs\n   show       Show various types of objects\n   status     Show the working tree status\n\ngrow, mark and tweak your common history\n   backfill   Download missing objects in a partial clone\n   branch     List, create, or delete branches\n   commit     Record changes to the repository\n   history    EXPERIMENTAL: Rewrite history\n   merge      Join two or more development histories together\n   rebase     Reapply commits on top of another base tip\n   reset      Set `HEAD` or the index to a known state\n   switch     Switch branches\n   tag        Create, list, delete or verify tags\n\ncollaborate (see also: git help workflows)\n   fetch      Download objects and refs from another repository\n   pull       Fetch from and integrate with another repository or a local branch\n   push       Update remote refs along with associated objects\n\n'git help -a' and 'git help -g' list available subcommands and some\nconcept guides. See 'git help <command>' or 'git help <concept>'\nto read about a specific subcommand or concept.\nSee 'git help git' for an overview of the system.\n""
+[0m15:44:55.645438 [debug] [MainThread]: STDERR: "b''"
+[0m15:44:55.645602 [info ] [MainThread]:  - git [[32mOK found[0m]
+
+[0m15:44:55.645800 [info ] [MainThread]: Connection:
+[0m15:44:55.645982 [info ] [MainThread]:   method: service-account
+[0m15:44:55.646138 [info ] [MainThread]:   database: michaels-sandbox-361302
+[0m15:44:55.646289 [info ] [MainThread]:   execution_project: michaels-sandbox-361302
+[0m15:44:55.646436 [info ] [MainThread]:   schema: sandbox_data_raw
+[0m15:44:55.646605 [info ] [MainThread]:   location: US
+[0m15:44:55.646762 [info ] [MainThread]:   priority: interactive
+[0m15:44:55.646928 [info ] [MainThread]:   maximum_bytes_billed: None
+[0m15:44:55.647068 [info ] [MainThread]:   reservation: None
+[0m15:44:55.647208 [info ] [MainThread]:   impersonate_service_account: None
+[0m15:44:55.647351 [info ] [MainThread]:   job_retry_deadline_seconds: None
+[0m15:44:55.647491 [info ] [MainThread]:   job_retries: 1
+[0m15:44:55.647627 [info ] [MainThread]:   job_creation_timeout_seconds: None
+[0m15:44:55.647820 [info ] [MainThread]:   job_execution_timeout_seconds: 300
+[0m15:44:55.647982 [info ] [MainThread]:   job_link_info_level_log: False
+[0m15:44:55.648129 [info ] [MainThread]:   timeout_seconds: 300
+[0m15:44:55.648283 [info ] [MainThread]:   client_id: None
+[0m15:44:55.648424 [info ] [MainThread]:   token_uri: None
+[0m15:44:55.648566 [info ] [MainThread]:   compute_region: None
+[0m15:44:55.648706 [info ] [MainThread]:   dataproc_cluster_name: None
+[0m15:44:55.648861 [info ] [MainThread]:   gcs_bucket: None
+[0m15:44:55.649020 [info ] [MainThread]:   dataproc_batch: None
+[0m15:44:55.650160 [info ] [MainThread]: Registered adapter: bigquery=1.12.1
+[0m15:44:55.832803 [debug] [MainThread]: Acquiring new bigquery connection 'debug'
+[0m15:44:55.833154 [debug] [MainThread]: On debug: select 1 as id
+[0m15:44:55.833475 [debug] [MainThread]: Opening a new connection, currently in state init
+[0m15:44:55.833829 [debug] [MainThread]: BigQuery adapter: Got an error when attempting to create a bigquery " "client: '[Errno 2] No such file or directory: '~/michaels-sandbox-361302-df97597ead14.json''
+[0m15:44:55.834086 [debug] [MainThread]: BigQuery adapter: Unhandled error while running:
+select 1 as id
+[0m15:44:55.834284 [debug] [MainThread]: BigQuery adapter: Database Error
+  [Errno 2] No such file or directory: '~/michaels-sandbox-361302-df97597ead14.json'
+[0m15:44:55.834476 [info ] [MainThread]:   Connection test: [[31mERROR[0m]
+
+[0m15:44:55.834692 [info ] [MainThread]: [31m1 check failed:[0m
+[0m15:44:55.834888 [info ] [MainThread]: dbt was unable to connect to the specified database.
+The database returned the following error:
+
+  >'NoneType' object has no attribute 'close'
+
+Check your database credentials and try again. For more information, visit:
+https://docs.getdbt.com/docs/configure-your-profile
+
+
+[0m15:44:55.835098 [info ] [MainThread]: Your new dbt project "airbnb" was created!
+Initialized new project in /home/michaeldean17/training/dbt-student-repo/airbnb/airbnb
+
+For more information on how to configure the profiles.yml file,
+please consult the dbt documentation here:
+
+  https://docs.getdbt.com/docs/configure-your-profile
+
+One more thing:
+
+Need help? Don't hesitate to reach out to us via GitHub issues or on Slack:
+
+  https://community.getdbt.com/
+
+Happy modeling!
+
+[0m15:44:55.835301 [info ] [MainThread]: [31mYour profile may need adjustments. You can find the logs of `dbt debug` above[0m
+[0m15:44:55.835742 [debug] [MainThread]: Resource report: {"command_name": "init", "command_success": true, "command_wall_clock_time": 710.2972, "process_in_blocks": "0", "process_kernel_time": 0.255484, "process_mem_max_rss": "268388", "process_out_blocks": "0", "process_user_time": 4.787966}
+[0m15:44:55.836470 [debug] [MainThread]: Command `dbt init` succeeded at 15:44:55.836339 after 710.30 seconds
+[0m15:44:55.836792 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x736a3ab0c180>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x736a3ad96450>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x736a3ad239b0>]}
+[0m15:44:55.837088 [debug] [MainThread]: Flushing usage events
+[0m15:44:56.142694 [debug] [MainThread]: An error was encountered while trying to flush usage events

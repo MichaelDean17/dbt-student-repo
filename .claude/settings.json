@@ -1,0 +1,14 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(uv pip *)",
+      "Bash(uv run *)",
+      "Bash(uv sync *)",
+      "Bash(pip index *)",
+      "Bash(/home/michaeldean17/.local/bin/dbt --version)",
+      "Bash(cat ~/.bashrc | grep -i -E '\\(venv|uv|direnv\\)' 2>&1 || echo \"No venv/uv/direnv config found in bashrc\")",
+      "Read(//home/michaeldean17/**)",
+      "Bash(command -v direnv)"
+    ]
+  }
+}
