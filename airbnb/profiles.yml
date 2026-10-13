@@ -4,9 +4,10 @@ airbnb:
       type: bigquery
       method: service-account
       project: michaels-sandbox-361302  # Found on your GCP home dashboard
-      dataset: sandbox_data_raw                  # Where dbt will build your tables
+      dataset: sandbox_data                  # Where dbt will build your tables
       threads: 4
       keyfile: /home/michaeldean17/michaels-sandbox-361302-df97597ead14.json
+      location: US # <--- Explicitly add this line in ALL CAPS
       timeout_seconds: 300
       priority: interactive
       retries: 1

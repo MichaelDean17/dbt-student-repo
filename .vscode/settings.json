@@ -1,0 +1,3 @@
+{
+    "dbt.dbtPythonPathOverride": "/home/michaeldean17/training/dbt-student-repo/.venv/bin/python3"
+}

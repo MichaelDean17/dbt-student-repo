@@ -1,0 +1,11 @@
+# models/bronze/sources.yml
+version: 2
+
+sources:
+  - name: airbnb_raw
+    database: michaels-sandbox-361302      # Your GCP Project ID
+    dataset: sandbox_data_raw       # Your ACTUAL raw dataset name in BigQuery
+    tables:
+      - name: listings_raw                     # The raw table you uploaded
+      - name: reviews_raw                      # The raw table you uploaded      
+      - name: hosts_raw                        # The raw table you uploaded

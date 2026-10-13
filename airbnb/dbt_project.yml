@@ -30,6 +30,19 @@ clean-targets:         # directories to be removed by `dbt clean`
 # directory as views. These settings can be overridden in the individual model
 # files using the `{{ config(...) }}` macro.
 models:
-  airbnb:
-    # Config indicated by + and applies to all files under models/example/
-    example:
+  airbnb: # Matches your project name    
+    # Looks inside models/bronze/ 
+    # Compiles destination as: sandbox_data + _ + bronze_airbnb
+    bronze:
+      +materialized: view
+      +schema: bronze_airbnb
+    # Looks inside models/silver/
+    # Compiles destination as: sandbox_data + _ + silver_airbnb
+    silver:
+      +materialized: table
+      +schema: silver_airbnb
+    # Looks inside models/gold/
+    # Compiles destination as: sandbox_data + _ + gold_airbnb
+    gold:
+      +materialized: table
+      +schema: gold_airbnb
